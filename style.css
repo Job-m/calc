@@ -1,0 +1,74 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+    margin: 0;
+    padding: 0%;
+
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(#7649EB,#AB49EB,#E049EB,#EB499D,#EB4C49 );
+    display: flex;
+    font-family: sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);   
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.521);
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: #f0befa4b;
+    border: 1px solid #ff02abfd;
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.644);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #a3a3a36c;
+    color: black;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+.calc-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.548);
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 23px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.445);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: 'inherit';
+    font-size: 24px;
+    height: 65px;
+
+}
